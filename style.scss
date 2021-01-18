@@ -37,6 +37,7 @@ body {
   background-color: inherit;
   border-radius: 8px 8px 8px 8px;
   cursor: pointer;
+  margin-top: 15vh;
 }
 .nav {
   background-color: white;
@@ -83,5 +84,24 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+@media only screen and (min-width: 761px) and (max-width: 1280px) {
+  .context {
+    width: 80%;
+  }
+}
 @media only screen and (min-width: 280px) and (max-width: 480px) {
+  .context {
+    width: 90%;
+    padding: 4vw;
+    p {
+      font-size: 0.6rem;
+    }
+  }
+  .nav {
+    height: auto;
+  }
+  #color {
+    display: inline-block;
+    margin-top: 1vh;
+  }
 }

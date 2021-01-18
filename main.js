@@ -15,6 +15,7 @@ btn.addEventListener('click', function(e){
      hash+=colour
      document.body.style.backgroundColor =hash;
      color.innerHTML =hash
+     color.style.color = hash
     }
 
 })
