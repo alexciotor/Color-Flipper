@@ -14,8 +14,9 @@ btn.addEventListener('click', function(e){
      const colour = colors[index]
      hash+=colour
      document.body.style.backgroundColor =hash;
-     color.innerHTML =hash
      color.style.color = hash
+     color.innerHTML =hash
+     
     }
 
 })

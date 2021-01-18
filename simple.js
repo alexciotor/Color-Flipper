@@ -12,8 +12,9 @@ btn.addEventListener('click', function(){
            i =0
        }
         document.body.style.backgroundColor = newColor[i];
-        color.innerHTML=newColor[i]
         color.style.color=newColor[i]
+        color.innerHTML=newColor[i]
+        
  
     // const index = Math.floor(Math.random() *newColor.length);
     // document.body.style.backgroundColor = newColor[index];
