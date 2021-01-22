@@ -74,7 +74,7 @@ a:hover {
 a:active {
   text-decoration: none;
 }
-@media only screen and (min-width: 761px) and (max-width: 1062px) {
+@media only screen and (min-width: 761px) and (max-width: 2062px) {
   .context {
     width: 80%;
   }
