@@ -76,7 +76,7 @@ a:active {
 }
 @media only screen and (min-width: 761px) and (max-width: 2062px) {
   .context {
-    width: 80%;
+    width: 50%;
   }
 }
 @media only screen and (min-width: 280px) and (max-width: 480px) {
