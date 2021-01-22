@@ -85,14 +85,15 @@ a:active {
     height: auto;
     padding: 20px;
   }
-  .context p {
-    font-size: 1rem;
-  }
+
   .nav {
     height: auto;
   }
+  #text {
+    font-size: 0.5rem;
+  }
   #color {
     display: inline-block;
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 }
